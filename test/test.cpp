@@ -34,14 +34,14 @@ TEST_CASE("HybridCar class ") {
     REQUIRE(hybridCar->Refuel() == "Refuel ElectricCar");
 
     // Switch to gasoline mode
-    REQUIRE(hybridCar->SwitchMode() == "SwitchMode Gasoline");
+    REQUIRE(hybridCar->SwitchMode() == "SwitchMode GasolineCar");
     REQUIRE(hybridCar->Drive() == "Drive GasolineCar");
     REQUIRE(hybridCar->FuelEfficiency() == 10.0);
     REQUIRE(hybridCar->ChargeBattery() == "ChargeBattery GasolineCar");
     REQUIRE(hybridCar->Refuel() == "Refuel GasolineCar");
 
     // Switch back to electric mode
-    REQUIRE(hybridCar->SwitchMode() == "SwitchMode Electric");
+    REQUIRE(hybridCar->SwitchMode() == "SwitchMode ElectricCar");
     REQUIRE(hybridCar->Drive() == "Drive ElectricCar");
     REQUIRE(hybridCar->Refuel() == "Refuel ElectricCar");
 

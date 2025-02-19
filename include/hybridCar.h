@@ -12,7 +12,7 @@ class HybridCar : public ElectricCar, public GasolineCar {
     string switch_mode;
     public:
 
-        HybridCar(): switch_mode("SwitchMode Electric"){}
+        HybridCar(): switch_mode("SwitchMode ElectricCar"){}
         virtual string Drive() override;
         virtual double FuelEfficiency() override;
         virtual string ChargeBattery() override;
