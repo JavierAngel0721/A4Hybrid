@@ -1,0 +1,7 @@
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/CMakeFiles/A4Hybrid.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/CMakeFiles/tests.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir

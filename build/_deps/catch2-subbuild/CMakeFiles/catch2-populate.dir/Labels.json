@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/9b6703b3d04ba9f0642aedbfd76a04f3/catch2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/2e364f041cc58a79c37023dd7b6b31b9/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/CMakeFiles/1f788648917bf7ccccce83b173e4552f/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

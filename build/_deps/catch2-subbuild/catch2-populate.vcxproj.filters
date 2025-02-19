@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\1f788648917bf7ccccce83b173e4552f\catch2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\2e364f041cc58a79c37023dd7b6b31b9\catch2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\9b6703b3d04ba9f0642aedbfd76a04f3\catch2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\build\_deps\catch2-subbuild\CMakeFiles\catch2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{79FB7F90-7B85-3668-9491-5E0CAED9F399}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

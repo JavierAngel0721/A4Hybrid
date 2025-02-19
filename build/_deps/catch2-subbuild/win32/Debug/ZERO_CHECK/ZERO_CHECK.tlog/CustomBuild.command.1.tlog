@@ -1,0 +1,10 @@
+^C:\USERS\SHREK\ONEDRIVE\DOCUMENTS\SPRING_2025\ECE 3574 (APPLIED SOFTWARE DESIGN)\A4HYBRID\BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\9B6703B3D04BA9F0642AEDBFD76A04F3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild" "-BC:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A4Hybrid/build/_deps/catch2-subbuild/catch2-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

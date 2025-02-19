@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\src\car.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\src\electricCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\src\gasolineCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\src\hybridCar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A4Hybrid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E04E5B91-4FA2-397B-8426-3FC5C97015CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
