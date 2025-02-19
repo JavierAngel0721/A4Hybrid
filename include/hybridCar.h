@@ -2,17 +2,17 @@
 #define HYBRIDCAR_H
 
 #include <string>
-#include "car.h"
+#include "electricCar.h"
+#include "gasolineCar.h"
 
 using namespace std;
 
-class HybridCar : public Car {
+class HybridCar : public ElectricCar, public GasolineCar {
     private:
-        string class_name = "HybridCar";
+    string switch_mode;
     public:
-        HybridCar(string name){
-            class_name = name;
-        }
+
+        HybridCar(): switch_mode("SwitchMode Electric"){}
         virtual string Drive() override;
         virtual double FuelEfficiency() override;
         virtual string ChargeBattery() override;

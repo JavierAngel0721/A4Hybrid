@@ -7,16 +7,13 @@
 using namespace std;
 
 class GasolineCar : public Car {
-    private:
-        string class_name = "GasolineCar";
     public:
-        GasolineCar(string name){
-            class_name = name;
-        }
+        GasolineCar() {}
         virtual string Drive() override;
         virtual double FuelEfficiency() override;
         virtual string ChargeBattery() override;
         virtual string Refuel() override;
+        virtual string SwitchMode() override;
 };
 
 #endif

@@ -9,22 +9,40 @@ double HybridCar::FuelEfficiency(){
 
 string HybridCar::Drive() {
 
-    return "Drive HybridCar";
+    if (switch_mode == "SwitchMode Electric") {
+        return ElectricCar::Drive();
+    } else if (switch_mode == "SwitchMode Gasoline"){
+        return GasolineCar::Drive();
+    }
+    return ElectricCar::Drive();
 
 }
 
 string HybridCar::ChargeBattery() {
 
-    return "ChargeBattery HybridCar";
-
+    if (switch_mode == "SwitchMode Electric") {
+        return ElectricCar::ChargeBattery();
+    } else if (switch_mode == "SwitchMode Gasoline"){
+        return GasolineCar::ChargeBattery();
+    }
+    return ElectricCar::ChargeBattery();
 }
 
 string HybridCar::Refuel() {
 
-    return "Refuel HybridCar";
-
+    if (switch_mode == "SwitchMode Electric") {
+        return ElectricCar::Refuel();
+    } else if (switch_mode == "SwitchMode Gasoline"){
+        return GasolineCar::Refuel();
+    }
+    return ElectricCar::Refuel();
 }
 
 string HybridCar::SwitchMode(){
-    return "SwitchMode HybridCar";
+    if (switch_mode == "SwitchMode Electric"){
+        switch_mode = "SwitchMode Gasoline";
+    } else {
+        switch_mode = "SwitchMode Electric";
+    }
+    return switch_mode;
 }

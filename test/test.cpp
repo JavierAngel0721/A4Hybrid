@@ -7,7 +7,7 @@
 
 
 TEST_CASE("ElectricCar class ") {
-    ElectricCar* electricCar = new ElectricCar("");  
+    ElectricCar* electricCar = new ElectricCar();  
     REQUIRE(electricCar->Drive() == "Drive ElectricCar"); 
     REQUIRE(electricCar->FuelEfficiency() == 10);
     REQUIRE(electricCar->ChargeBattery() == "ChargeBattery ElectricCar");
@@ -16,7 +16,7 @@ TEST_CASE("ElectricCar class ") {
 }
 
 TEST_CASE("GasolineCar class ") {
-    GasolineCar* gasolineCar = new GasolineCar("");  
+    GasolineCar* gasolineCar = new GasolineCar();  
     REQUIRE(gasolineCar->Drive() == "Drive GasolineCar"); 
     REQUIRE(gasolineCar->FuelEfficiency() == 10);
     REQUIRE(gasolineCar->ChargeBattery() == "ChargeBattery GasolineCar");
@@ -25,12 +25,26 @@ TEST_CASE("GasolineCar class ") {
 }
 
 TEST_CASE("HybridCar class ") {
-    HybridCar* hybridCar = new HybridCar("");  
-    REQUIRE(hybridCar->Drive() == "Drive HybridCar"); 
-    REQUIRE(hybridCar->FuelEfficiency() == 10);
-    REQUIRE(hybridCar->ChargeBattery() == "ChargeBattery HybridCar");
-    REQUIRE(hybridCar->Refuel() == "Refuel HybridCar"); 
-    REQUIRE(hybridCar->SwitchMode() == "SwitchMode HybridCar");
+    HybridCar* hybridCar = new HybridCar();
+    
+    // Initially in electric mode
+    REQUIRE(hybridCar->Drive() == "Drive ElectricCar");
+    REQUIRE(hybridCar->FuelEfficiency() == 10.0);
+    REQUIRE(hybridCar->ChargeBattery() == "ChargeBattery ElectricCar");
+    REQUIRE(hybridCar->Refuel() == "Refuel ElectricCar");
+
+    // Switch to gasoline mode
+    REQUIRE(hybridCar->SwitchMode() == "SwitchMode Gasoline");
+    REQUIRE(hybridCar->Drive() == "Drive GasolineCar");
+    REQUIRE(hybridCar->FuelEfficiency() == 10.0);
+    REQUIRE(hybridCar->ChargeBattery() == "ChargeBattery GasolineCar");
+    REQUIRE(hybridCar->Refuel() == "Refuel GasolineCar");
+
+    // Switch back to electric mode
+    REQUIRE(hybridCar->SwitchMode() == "SwitchMode Electric");
+    REQUIRE(hybridCar->Drive() == "Drive ElectricCar");
+    REQUIRE(hybridCar->Refuel() == "Refuel ElectricCar");
+
     delete hybridCar;
 }
 

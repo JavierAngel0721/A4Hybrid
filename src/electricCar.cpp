@@ -2,11 +2,6 @@
 #include <string>
 
 using namespace std;
-
-ElectricCar::ElectricCar(string name) {
-    class_name = name;
-}
-
 double ElectricCar::FuelEfficiency(){
     return 10;
 }
@@ -27,5 +22,9 @@ string ElectricCar::Refuel() {
 
     return "Refuel ElectricCar";
 
+}
+
+string ElectricCar::SwitchMode(){
+    return "SwitchMode ElectricCar";
 }
 

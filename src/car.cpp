@@ -22,3 +22,7 @@ string Car::ChargeBattery() {
 string Car::Refuel(){
     return "Refuel Car";
 }
+
+string Car::SwitchMode(){
+    return "SwitchMode Car";
+}

@@ -24,3 +24,7 @@ string GasolineCar::Refuel() {
     return "Refuel GasolineCar";
 
 }
+
+string GasolineCar::SwitchMode(){
+    return "SwitchMode GasolineCar";
+}
