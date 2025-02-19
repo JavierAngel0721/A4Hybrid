@@ -44,5 +44,5 @@ string HybridCar::SwitchMode(){
     } else {
         switch_mode = "SwitchMode ElectricCar";
     }
-    return switch_mode;
+    return "SwitchMode HybridCar";
 }
