@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class GasolineCar : public Car {
+class GasolineCar : virtual public Car {
     public:
         GasolineCar() {}
         virtual string Drive() override;
